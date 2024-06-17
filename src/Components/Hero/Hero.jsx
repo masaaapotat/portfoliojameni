@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className="hero">
       <img src={profile_img} alt="" />
-      <h1><span>Hi, Masaa,</span> I'm a mobile developer, based in Mombasa, Kenya.</h1>
+      <h1><span>I'm, Masaa,</span> a mobile developer, based in Mombasa, Kenya.</h1>
       <p>
         I specialize in creating innovative and user-friendly mobile
         applications. With a strong background in both Android and iOS
