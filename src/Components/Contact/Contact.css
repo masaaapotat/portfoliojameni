@@ -117,3 +117,15 @@
   transform: scale(1.05);
   transition: 0.3s;
 }
+.form-result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+  color: #b923e1; /* Green color for success */
+}
+
+.success-icon {
+  color: #4caf50; /* Green color for success */
+  font-size: 24px;
+}
