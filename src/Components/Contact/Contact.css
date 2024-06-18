@@ -1,0 +1,119 @@
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-self: center;
+  gap: 80px;
+  margin: 80px 170px;
+}
+.contact-title {
+  position: relative;
+  /* display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center; */
+}
+.contact-title h1 {
+  padding: 0px 30px;
+  font-size: 80px;
+  font-weight: 600;
+}
+.contact-title img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.contact-section {
+  display: flex;
+
+  gap: 150px;
+}
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact-left h1 {
+  font-size: 80px;
+  font-weight: 700;
+  background: linear-gradient(267deg, #ffc107 80.36%, #b923e1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.contact-left p {
+  max-width: 550px;
+  color: #d8d8d8;
+  font-size: 20px;
+  line-height: 40px;
+}
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: #d8d8d8;
+  font-size: 22px;
+}
+.contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+/* .contact-detail img{
+    width: 30px;
+    height: 30px;
+} */
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.contact-right label {
+  font-size: 22px;
+  font-weight: 500;
+  color: #d8d8d8;
+}
+.contact-right input {
+  width: 600px;
+  height: 78px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: none;
+  /* outline: none; */
+  color: #a0a0a0;
+  font-family: "outfit";
+  background-color: #323232cd;
+}
+.contact-right textarea {
+  width: 650px;
+  height: 200px;
+  padding: 25px;
+  padding-top: 20px;
+  border-radius: 5px;
+  border: none;
+  /* outline: none; */
+  color: #a0a0a0;
+  font-family: "outfit";
+  font-size: 25px;
+  background-color: #323232cd;
+}
+.contact-right button {
+  padding: 20px 60px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  font-family: "outfit";
+  font-size: 25px;
+  background: linear-gradient(267deg, #ffc107 6.36%, #b923e1 102%);
+}
+.contact-right button:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
