@@ -1,12 +1,14 @@
 import React from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.svg";
+// import profiles from "../../assets/profiles.jpeg";
+import masaa from "../../assets/masaa.svg";
 import AnchorLink from "react-anchor-link-smooth-scroll"; // Correct import statement
 
 const Hero = () => {
   return (
     <div id="home" className="hero">
-      <img src={profile_img} alt="Profile" />
+      <img src={masaa} alt="Profile" />
       <h1><span>I'm Masaa,</span> a mobile developer, based in Mombasa, Kenya.</h1>
       <p>
         I specialize in creating innovative and user-friendly mobile

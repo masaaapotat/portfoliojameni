@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import arrowmasa from "./assets/arrowmasa.svg";
 import footer_logo from "./assets/footer_logo.svg";
 import user_icon from "./assets/user_icon.svg";
 
@@ -8,7 +9,7 @@ const Footer = () => {
     <div className="footer">
       <div className="footer-top">
         <div className="footertop-left">
-          <img src={footer_logo} alt="" />
+          <img src={arrowmasa} alt="" />
           <p>
             As a mobile developer, I continuously strive to enhance my skills
             and stay ahead of the latest trends to deliver cutting-edge
